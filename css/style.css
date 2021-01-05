@@ -82,6 +82,9 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
 }
 
 .header__leap {
@@ -124,26 +127,26 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
-.container .background {
+.wrapper .background {
   background: #73d2f7;
-  height: 300px;
+  height: 350px;
   width: 100%;
   position: absolute;
   z-index: 0;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .container .top {
-  position: relative;
-  top: 30px;
   background: #f77373;
   margin: auto;
   width: 300px;
   z-index: 1;
+  margin-top: 100px;
+  margin-bottom: 90px;
 }
 
 .container .top .launch {
@@ -185,4 +188,6 @@ h1, h2, h3, h4, h5, h6 {
   background: #b31fe0;
   width: 960px;
   height: 30px;
+  z-index: 1;
+  margin: auto;
 }

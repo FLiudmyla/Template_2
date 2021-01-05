@@ -10,6 +10,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
 }
 
 .header__leap {
@@ -50,42 +53,42 @@
 .wrapper {
     background: rgb(233, 163, 163);
     height: 100%;
-}
 
-.container{
-    display: flex;
-    flex-direction: column;
-
-    .background{
+    .background {
         background: rgb(115, 210, 247);
-        height: 300px;
+        height: 350px;
         width: 100%;
         position: absolute;
         z-index: 0;
     }
-  
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
     .top {
-        position: relative;
-        top: 30px;
         background: rgb(247, 115, 115);
         margin: auto;
         width: 300px;
         z-index: 1;
-    
+        margin-top: 100px;
+        margin-bottom: 90px;
+
         .launch {
             background: rgb(80, 233, 33);
             height: 50px;
             width: 300px;
             margin-bottom: 30px;
         }
-    
+
         .text {
             background: rgb(223, 236, 41);
             height: 50px;
             width: 300px;
             margin-bottom: 30px;
         }
-    
+
         .buttons {
             background: rgb(241, 18, 18);
             width: 150px;
@@ -93,13 +96,13 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-    
+
             .buttons__demos {
                 background: rgb(28, 102, 240);
                 width: 60px;
                 height: 30px;
             }
-    
+
             .buttons__purchase {
                 background: rgb(28, 102, 240);
                 width: 60px;
@@ -112,8 +115,7 @@
         background: rgb(179, 31, 224);
         width: 960px;
         height: 30px;
+        z-index: 1;
+        margin: auto;
     }
 }
-
-
-
