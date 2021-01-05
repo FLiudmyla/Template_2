@@ -203,4 +203,52 @@ h1, h2, h3, h4, h5, h6 {
   width: auto;
   height: 200px;
   margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container .img {
+  background: #3cdd7a;
+  width: 20%;
+  margin: 10px;
+}
+
+.container .details {
+  width: 70%;
+}
+
+.container .title {
+  background: #2fd819;
+  width: 100%;
+  height: 30px;
+}
+
+.container .subtitle {
+  background: #0066ff;
+  width: 100%;
+  height: 30px;
+}
+
+.container .iconrows {
+  background: #ffee00;
+  width: 100%;
+}
+
+.container .iconrows .row {
+  width: 100%;
+  display: flex;
+}
+
+.container .iconrows .row .icon {
+  background: #e6a3b9;
+  width: 20%;
+  height: 40px;
+  margin: 2px 2px;
+}
+
+.container .iconrows .row .text {
+  background: #ff0077;
+  width: 80%;
+  height: 40px;
+  margin: 2px 2px;
 }

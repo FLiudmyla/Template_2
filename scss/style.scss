@@ -131,5 +131,54 @@
         width: auto;
         height: 200px;
         margin: 20px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .img {
+        background: rgb(60, 221, 122);
+        width: 20%;
+        margin: 10px;
+    }
+
+
+    .details {
+        width: 70%;
+    }
+
+    .title {
+        background: rgb(47, 216, 25);
+        width: 100%;
+        height: 30px;
+    }
+
+    .subtitle {
+        background: rgb(0, 102, 255);
+        width: 100%;
+        height: 30px;
+    }
+
+    .iconrows {
+        background: rgb(255, 238, 0);
+        width: 100%;
+
+        .row {
+            width: 100%;
+            display: flex;
+
+            .icon {
+                background: rgb(230, 163, 185);
+                width: 20%;
+                height: 40px;
+                margin: 2px 2px;
+            }
+
+            .text {
+                background: rgb(255, 0, 119);
+                width: 80%;
+                height: 40px;
+                margin: 2px 2px;
+            }
+        }
     }
 }
