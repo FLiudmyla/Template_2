@@ -1,0 +1,119 @@
+@import "nullstyle.scss";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background: blue;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__leap {
+    background: rgb(171, 35, 250);
+    width: 80px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.header__menu {
+    background: rgb(250, 132, 35);
+    height: 30px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.header__items {
+    background: rgb(21, 162, 243);
+    display: flex;
+    align-items: center;
+    min-width: 240px;
+    justify-content: space-around;
+
+    .header__item {
+        background: rgb(131, 248, 53);
+        width: 40px;
+        height: 20px;
+        text-align: center;
+    }
+}
+
+.header__purchase {
+    background: rgb(243, 47, 21);
+    width: 80px;
+    height: 30px;
+}
+
+.wrapper {
+    background: rgb(233, 163, 163);
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+    .background{
+        background: rgb(115, 210, 247);
+        height: 300px;
+        width: 100%;
+        position: absolute;
+        z-index: 0;
+    }
+  
+    .top {
+        position: relative;
+        top: 30px;
+        background: rgb(247, 115, 115);
+        margin: auto;
+        width: 300px;
+        z-index: 1;
+    
+        .launch {
+            background: rgb(80, 233, 33);
+            height: 50px;
+            width: 300px;
+            margin-bottom: 30px;
+        }
+    
+        .text {
+            background: rgb(223, 236, 41);
+            height: 50px;
+            width: 300px;
+            margin-bottom: 30px;
+        }
+    
+        .buttons {
+            background: rgb(241, 18, 18);
+            width: 150px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            .buttons__demos {
+                background: rgb(28, 102, 240);
+                width: 60px;
+                height: 30px;
+            }
+    
+            .buttons__purchase {
+                background: rgb(28, 102, 240);
+                width: 60px;
+                height: 30px;
+            }
+        }
+    }
+
+    .getstarted {
+        background: rgb(179, 31, 224);
+        width: 960px;
+        height: 30px;
+    }
+}
+
+
+
