@@ -129,7 +129,6 @@
     .items__item {
         background: green;
         width: auto;
-        height: 200px;
         margin: 20px 0;
         display: flex;
         justify-content: space-around;
@@ -137,13 +136,14 @@
 
     .img {
         background: rgb(60, 221, 122);
-        width: 20%;
+        width: 25%;
         margin: 10px;
     }
 
 
     .details {
         width: 70%;
+        margin: 10px;
     }
 
     .title {
@@ -181,4 +181,22 @@
             }
         }
     }
+    .yoursiteneed {
+        display: flex;
+        flex-direction: column;
+    }
+
+.yoursiteneed__title {
+background: rgb(219, 60, 11);
+width: auto;
+height: 30px;
+margin: 10px 0;
+}
+
+.yoursiteneed__subtitle {
+    background: rgb(24, 166, 209);
+    width: auto;
+    height: 30px;
+}
+
 }

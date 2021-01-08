@@ -201,7 +201,6 @@ h1, h2, h3, h4, h5, h6 {
 .container .items__item {
   background: green;
   width: auto;
-  height: 200px;
   margin: 20px 0;
   display: flex;
   justify-content: space-around;
@@ -209,12 +208,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .container .img {
   background: #3cdd7a;
-  width: 20%;
+  width: 25%;
   margin: 10px;
 }
 
 .container .details {
   width: 70%;
+  margin: 10px;
 }
 
 .container .title {
@@ -251,4 +251,22 @@ h1, h2, h3, h4, h5, h6 {
   width: 80%;
   height: 40px;
   margin: 2px 2px;
+}
+
+.container .yoursiteneed {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .yoursiteneed__title {
+  background: #db3c0b;
+  width: auto;
+  height: 30px;
+  margin: 10px 0;
+}
+
+.container .yoursiteneed__subtitle {
+  background: #18a6d1;
+  width: auto;
+  height: 30px;
 }
